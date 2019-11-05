@@ -8,3 +8,6 @@ install.packages(pkgs = c(
   "dslabs",
   "fivethirtyeight"
 ))
+library(supernova)
+library(mosaic)     # loads ggformula, ggplot2, dplyr as well
+library(lsr)        # only for cohensD()
